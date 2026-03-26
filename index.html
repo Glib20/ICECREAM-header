@@ -1,88 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<title>IceCream</title>
+    <title>IceCream</title>
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style3.css" />
 
-<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;700&family=DM+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo">
+        <img src="./img/logo.svg" alt="logo" />
+      </a>
 
-<header>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#" class="header__link">Home</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">About us</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">How it's made?</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">Our products</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
 
-<a href="#" class="logo">
-<img src="./img/logo.svg" alt="logo">
-</a>
+      <button class="header__btn">Buy now ></button>
+    </header>
 
-<nav>
-<ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">About us</a></li>
-<li><a href="#">How it's made?</a></li>
-<li><a href="#">Our products</a></li>
-<li><a href="#">Contact</a></li>
-</ul>
-</nav>
+    <main class="main">
+      <section class="hero">
+        <div class="hero__content">
+          <h2 class="hero__title">
+            ICE CREAM <br />
+            MADE WITH <br />
+            <span class="hero__accent">PASSION</span>
+          </h2>
 
-<button class="buy">Buy now ></button>
+          <div class="hero__buttons">
+            <button class="hero__btn hero__btn--primary">Products</button>
+            <button class="hero__btn hero__btn--secondary">
+              How it's made?
+            </button>
+          </div>
+        </div>
 
-</header>
+        <div class="hero__image">
+          <img src="./img/icecream.svg" alt="" />
+        </div>
 
-<main>
+        <div class="hero__stats">
+          <p class="hero__stat"><span>16</span> cafes</p>
+          <p class="hero__stat"><span>23</span> food trucks</p>
+        </div>
+      </section>
 
-<section class="hero">
+      <section class="hero-bottom">
+        <div class="hero-bottom__milk">
+          <img src="./img/milk.svg" alt="" />
+        </div>
 
-<article class="hero-text">
+        <p class="hero-bottom__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et.
+        </p>
 
-<h2>
-ICE CREAM <br>
-MADE WITH <br>
-<span>PASSION</span>
-</h2>
-
-<p class="buttons">
-<button class="btn-red">Products</button>
-<button class="btn-white">How it's made?</button>
-</p>
-
-</article>
-
-<figure class="hero-icecream">
-<img src="./img/icecream.svg" alt="">
-</figure>
-
-<aside class="hero-stats">
-
-<p class="stat"><span>16</span>cafes</p>
-<p class="stat"><span>23</span>food trucks</p>
-
-</aside>
-
-</section>
-
-<section class="hero-bottom">
-
-<figure class="milk">
-<img src="./img/milk.svg" alt="">
-</figure>
-
-<p class="desc">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-sed do eiusmod tempor incididunt ut labore et.
-</p>
-
-<figure class="girl">
-<img src="./img/girl.svg" alt="">
-</figure>
-
-</section>
-
-</main>
-
-</body>
+        <div class="hero-bottom__girl">
+          <img src="./img/girl.svg" alt="" />
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
