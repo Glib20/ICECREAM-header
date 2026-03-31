@@ -1,3 +1,31 @@
+/* ================= VARIABLES ================= */
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --color-comment-bg: #fafafa;
+  --color-gray: #fff5f6;
+  --color-btn-hover-bg: #ecebeb;
+  --color-color-lines: #e1e1e1;
+  --color-dots: #d9d9d9;
+  --color-text-second: #907e82;
+  --color-text-primary: #000000;
+
+  --color-primary: #d41443;
+  --color-primary-hover: #d41342;
+  --color-primary-accent: #c7133e;
+
+  --color-secondary-title-color: #ffa5ba;
+  --color-bg-color: #ffb8ca;
+  --color-location-time-text: #fea5bb;
+
+  --color-cafe: #f0d1a5;
+  --color-food-truck: #c2e297;
+}
+
+/* ================= BASE ================= */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +34,8 @@
 
 body {
   font-family: "DM Sans", sans-serif;
-  background: #ffb8ca;
-  color: #fff;
+  background: var(--color-bg-color);
+  color: var(--color-white);
 }
 
 img {
@@ -157,6 +185,7 @@ img {
   justify-content: space-between;
   padding: 20px 40px;
   gap: 20px;
+  position: absolute;
 }
 
 .hero-bottom__text {
@@ -168,6 +197,9 @@ img {
 }
 
 .hero-bottom__girl img {
+  position: absolute;
+  right: 600px;
+  top: -246px;
   width: 260px;
 }
 
