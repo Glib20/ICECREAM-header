@@ -185,7 +185,6 @@ img {
   justify-content: space-between;
   padding: 20px 40px;
   gap: 20px;
-  position: absolute;
 }
 
 .hero-bottom__text {
@@ -197,9 +196,6 @@ img {
 }
 
 .hero-bottom__girl img {
-  position: absolute;
-  right: 600px;
-  top: -246px;
   width: 260px;
 }
 
